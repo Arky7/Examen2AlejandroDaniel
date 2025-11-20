@@ -8,7 +8,7 @@ class TestMiClase(unittest.TestCase):
 
     def test_ObtieneValencia_contar_impares(self):
         resultado = self.obj.ObtieneValencia(1234567)
-        self.assertEqual(resultado, 4)  # 1,3,5,7
+        self.assertEqual(resultado, 4)
 
     def test_ObtieneValencia_sin_impares(self):
         resultado = self.obj.ObtieneValencia(2468)
