@@ -42,6 +42,14 @@ class MiClase:
             if song is None:
                 return False
         return True
+    
+    #Nuevo metodo
+    def Encuentra(self, lista, elemento):
+        for item in lista:
+            if not isinstance(item, int):
+                raise ValueError("La lista debe contener únicamente números enteros.")
+        return elemento in lista
+
 
 
 ################################################################################################
