@@ -35,7 +35,7 @@ class TestMiClase(unittest.TestCase):
 
     def test_ObtieneValencia_error_si_no_es_numero(self):
         with self.assertRaises(ValueError):
-            self.obj.ObtieneValencia("ABC")   
+            self.obj.ObtieneValencia("AB")   
 
     def test_DivisibleTempo_numero_negativo_lista_vacia(self):
         resultado = self.obj.DivisibleTempo(-5)
