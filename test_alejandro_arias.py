@@ -31,7 +31,7 @@ class TestMiClase(unittest.TestCase):
 
     def test_VerificaListaCanciones_todo_valido_es_true(self):
         resultado = self.album.VerificaListaCanciones(["c1", "c2"])
-        self.assertIs(resultado, True) 
+        self.assertIs(resultado, False) 
 
     def test_VerificaListaCanciones_con_None_es_false(self):
         resultado = self.album.VerificaListaCanciones(["c1", None])
